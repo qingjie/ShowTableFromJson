@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-	var items:[String] = ["We","Heart","Swift"]
+	var items:[String] = ["Zhao","Qing","Jie"]
 	
 	@IBOutlet weak var tbview: UITableView!
 	
