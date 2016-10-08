@@ -12,6 +12,7 @@
 		A7179F881DA895B20042482B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7179F861DA895B20042482B /* Main.storyboard */; };
 		A7179F8A1DA895B20042482B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7179F891DA895B20042482B /* Assets.xcassets */; };
 		A7179F8D1DA895B20042482B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7179F8B1DA895B20042482B /* LaunchScreen.storyboard */; };
+		A7C150A61DA920F000ABB98A /* Array+RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C150A51DA920F000ABB98A /* Array+RemoveDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A7179F891DA895B20042482B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7179F8C1DA895B20042482B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7179F8E1DA895B20042482B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C150A51DA920F000ABB98A /* Array+RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveDuplicates.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A7179F821DA895B20042482B /* AppDelegate.swift */,
 				A7179F841DA895B20042482B /* ViewController.swift */,
+				A7C150A51DA920F000ABB98A /* Array+RemoveDuplicates.swift */,
 				A7179F861DA895B20042482B /* Main.storyboard */,
 				A7179F891DA895B20042482B /* Assets.xcassets */,
 				A7179F8B1DA895B20042482B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7179F851DA895B20042482B /* ViewController.swift in Sources */,
+				A7C150A61DA920F000ABB98A /* Array+RemoveDuplicates.swift in Sources */,
 				A7179F831DA895B20042482B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				A7179F931DA895B20042482B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

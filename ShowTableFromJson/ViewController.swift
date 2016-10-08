@@ -10,14 +10,19 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-	var items:[String] = ["Zhao","Qing","Jie"]
+	var items:[String] = ["Zhao","Qing","Jie","Jie"]
+	
 	
 	@IBOutlet weak var tbview: UITableView!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		let temp0 = items.removeDuplicates()
+		print(temp0)
 		
+		//let temp1 = items.removeDuplicatesInPlace()
+		//print(temp1)
 	}
 
 	override func didReceiveMemoryWarning() {
